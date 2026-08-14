@@ -1,0 +1,27 @@
+# Python standard rules
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment and sensitive configuration files
+.env
+.env.local
+config.json
+
+# Vector databases & local stores (for RAG)
+chroma_db/
+vectorstore/
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter / Colab checkpoints
+.ipynb_checkpoints/
